@@ -1,0 +1,66 @@
+TACC:  Starting up job 11541696 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Start: 1689548926871182848
+LAMMPS (15 Jun 2023 - Development - patch_15Jun2023-30-gc5d9f901d9)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  12 by 16 by 16 MPI processor grid
+Created 32000000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  create_atoms CPU = 0.029 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 20 steps, delay = 0 steps, check = no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 2.8
+  ghost atom cutoff = 2.8
+  binsize = 1.4, bins = 240 240 240
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 6.326 | 6.336 | 6.344 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1.44          -6.7733681      0             -4.6133681     -5.0196693    
+       100   0.75941602    -5.7614399      0             -4.6223159      0.19027589   
+Loop time of 16.909 on 3072 procs for 100 steps with 32000000 atoms
+
+Performance: 2554.850 tau/day, 5.914 timesteps/s, 189.248 Matom-step/s
+42.1% CPU use with 3072 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.1672     | 1.2256     | 1.3291     |   2.8 |  7.25
+Neigh   | 0.13279    | 0.14032    | 0.15207    |   0.9 |  0.83
+Comm    | 15.143     | 15.369     | 15.555     |   2.6 | 90.89
+Output  | 0.0096153  | 0.14355    | 0.28791    |  25.0 |  0.85
+Modify  | 0.022642   | 0.023771   | 0.026038   |   0.4 |  0.14
+Other   |            | 0.006538   |            |       |  0.04
+
+Nlocal:        10416.7 ave       10596 max       10253 min
+Histogram: 39 239 444 312 301 788 744 188 16 1
+Nghost:        9957.57 ave       10205 max        9796 min
+Histogram: 8 185 851 828 335 418 331 108 7 1
+Neighs:         391191 ave      399193 max      383721 min
+Histogram: 23 157 368 428 474 769 613 220 19 1
+
+Total # of neighbors = 1.2017386e+09
+Ave neighs/atom = 37.55433
+Neighbor list builds = 5
+Dangerous builds not checked
+Total wall time: 0:00:17
+TACC:  MPI job exited with code: 141 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m29.160s
+user	0m1.076s
+sys	0m0.952s

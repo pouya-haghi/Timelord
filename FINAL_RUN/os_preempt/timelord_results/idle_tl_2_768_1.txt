@@ -1,0 +1,7 @@
+TACC:  Starting up job 11552052 
+TACC:  Starting parallel tasks... 
+Total Iterations: 103771711543172
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] HYDT_bscu_wait_for_completion (../../tools/bootstrap/utils/bscu_wait.c:151): one of the processes terminated badly; aborting
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] HYDT_bsci_wait_for_completion (../../tools/bootstrap/src/bsci_wait.c:36): launcher returned error waiting for completion
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:540): launcher returned error waiting for completion
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion

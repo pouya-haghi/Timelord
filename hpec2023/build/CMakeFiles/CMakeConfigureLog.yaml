@@ -1,0 +1,1233 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 3.10.0-1160.53.1.el7.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_78aea/fast && /bin/gmake  -f CMakeFiles/cmTC_78aea.dir/build.make CMakeFiles/cmTC_78aea.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH'
+        Building C object CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o
+        /bin/cc   -v -o CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -c /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/bin/cc
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccc5dddY.s
+        GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 231b3394950636dbfe0428e88716bc73
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o /tmp/ccc5dddY.s
+        GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_78aea
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78aea.dir/link.txt --verbose=1
+        /bin/cc  -v CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -o cmTC_78aea 
+        Using built-in specs.
+        COLLECT_GCC=/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78aea' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_78aea /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_78aea/fast && /bin/gmake  -f CMakeFiles/cmTC_78aea.dir/build.make CMakeFiles/cmTC_78aea.dir/build]
+        ignore line: [gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-bzmEcH']
+        ignore line: [Building C object CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -c /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/cc]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccc5dddY.s]
+        ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 231b3394950636dbfe0428e88716bc73]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o /tmp/ccc5dddY.s]
+        ignore line: [GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_78aea]
+        ignore line: [/opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78aea.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc  -v CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -o cmTC_78aea ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78aea' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_78aea /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_78aea] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+          arg [CMakeFiles/cmTC_78aea.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_abe53/fast && /bin/gmake  -f CMakeFiles/cmTC_abe53.dir/build.make CMakeFiles/cmTC_abe53.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn'
+        Building CXX object CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o
+        /bin/c++   -v -o CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/bin/c++
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccfhsTd2.s
+        GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 51b2dcccf6085e5bfbbf3932e5685252
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfhsTd2.s
+        GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_abe53
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe53.dir/link.txt --verbose=1
+        /bin/c++  -v CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_abe53 
+        Using built-in specs.
+        COLLECT_GCC=/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abe53' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_abe53 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+          add: [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        collapse include dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5] ==> [/usr/include/c++/4.8.5]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux] ==> [/usr/include/c++/4.8.5/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward] ==> [/usr/include/c++/4.8.5/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include;/usr/include/c++/4.8.5;/usr/include/c++/4.8.5/x86_64-redhat-linux;/usr/include/c++/4.8.5/backward;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_abe53/fast && /bin/gmake  -f CMakeFiles/cmTC_abe53.dir/build.make CMakeFiles/cmTC_abe53.dir/build]
+        ignore line: [gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-ET7CZn']
+        ignore line: [Building CXX object CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -c /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/c++]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE /opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccfhsTd2.s]
+        ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 51b2dcccf6085e5bfbbf3932e5685252]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfhsTd2.s]
+        ignore line: [GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_abe53]
+        ignore line: [/opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe53.dir/link.txt --verbose=1]
+        ignore line: [/bin/c++  -v CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_abe53 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abe53' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_abe53 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_abe53] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+          arg [CMakeFiles/cmTC_abe53.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_62477/fast && /bin/gmake  -f CMakeFiles/cmTC_62477.dir/build.make CMakeFiles/cmTC_62477.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6'
+        Building CXX object CMakeFiles/cmTC_62477.dir/feature_tests.cxx.o
+        /bin/c++   -std=c++1y -o CMakeFiles/cmTC_62477.dir/feature_tests.cxx.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6/feature_tests.cxx
+        Linking CXX executable cmTC_62477
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62477.dir/link.txt --verbose=1
+        /bin/c++ CMakeFiles/cmTC_62477.dir/feature_tests.cxx.o -o cmTC_62477 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-NzXtu6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_aeda8/fast && /bin/gmake  -f CMakeFiles/cmTC_aeda8.dir/build.make CMakeFiles/cmTC_aeda8.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ'
+        Building C object CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o
+        /bin/cc   -fopenmp -v -o CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/bin/cc
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v -D_REENTRANT /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cckyvsPp.s
+        GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 231b3394950636dbfe0428e88716bc73
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+         as -v --64 -o CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o /tmp/cckyvsPp.s
+        GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+        Linking C executable cmTC_aeda8
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeda8.dir/link.txt --verbose=1
+        /bin/cc  -fopenmp -v CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -o cmTC_aeda8  -v 
+        Using built-in specs.
+        COLLECT_GCC=/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_aeda8' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aeda8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_aeda8/fast && /bin/gmake  -f CMakeFiles/cmTC_aeda8.dir/build.make CMakeFiles/cmTC_aeda8.dir/build]
+        ignore line: [gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ']
+        ignore line: [Building C object CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o]
+        ignore line: [/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ/OpenMPTryFlag.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/cc]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1 -quiet -v -D_REENTRANT /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-OV7VIQ/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/cckyvsPp.s]
+        ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 231b3394950636dbfe0428e88716bc73]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o /tmp/cckyvsPp.s]
+        ignore line: [GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [Linking C executable cmTC_aeda8]
+        ignore line: [/opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeda8.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc  -fopenmp -v CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -o cmTC_aeda8  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_aeda8' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aeda8 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_aeda8] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+          arg [CMakeFiles/cmTC_aeda8.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_77724/fast && /bin/gmake  -f CMakeFiles/cmTC_77724.dir/build.make CMakeFiles/cmTC_77724.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC'
+        Building CXX object CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o
+        /bin/c++   -Wall -pedantic -lm -fopenmp -v -std=gnu++1y -o CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/bin/c++
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -Wall -Wpedantic -std=gnu++1y -version -fopenmp -o /tmp/ccTpMo7s.s
+        GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include
+         /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward
+         /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1
+        warning: GMP header version 6.0.0 differs from library version 6.1.2.
+        warning: MPFR header version 3.1.1 differs from library version 3.1.5.
+        warning: MPC header version 1.0.1 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 51b2dcccf6085e5bfbbf3932e5685252
+        COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+         as -v --64 -o CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o /tmp/ccTpMo7s.s
+        GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+        Linking CXX executable cmTC_77724
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77724.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm -fopenmp -v CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -o cmTC_77724  -v 
+        Using built-in specs.
+        COLLECT_GCC=/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgomp.spec
+        COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-o' 'cmTC_77724' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77724 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:27 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_77724/fast && /bin/gmake  -f CMakeFiles/cmTC_77724.dir/build.make CMakeFiles/cmTC_77724.dir/build]
+        ignore line: [gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC']
+        ignore line: [Building CXX object CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/bin/c++   -Wall -pedantic -lm -fopenmp -v -std=gnu++1y -o CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC/OpenMPTryFlag.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/c++]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-dK5JvC/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -Wall -Wpedantic -std=gnu++1y -version -fopenmp -o /tmp/ccTpMo7s.s]
+        ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/pstl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/daal/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/include]
+        ignore line: [ /opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 4.8.5 20150623 (Red Hat 4.8.5-44) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [warning: GMP header version 6.0.0 differs from library version 6.1.2.]
+        ignore line: [warning: MPFR header version 3.1.1 differs from library version 3.1.5.]
+        ignore line: [warning: MPC header version 1.0.1 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 51b2dcccf6085e5bfbbf3932e5685252]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o /tmp/ccTpMo7s.s]
+        ignore line: [GNU assembler version 2.28 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-std=gnu++1y' '-o' 'CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [Linking CXX executable cmTC_77724]
+        ignore line: [/opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77724.dir/link.txt --verbose=1]
+        ignore line: [/bin/c++  -Wall -pedantic -lm -fopenmp -v CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -o cmTC_77724  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c c++ objc obj-c++ java fortran ada go lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4/:/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7/:/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin/:/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/4.8.5/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Wpedantic' '-fopenmp' '-v' '-o' 'cmTC_77724' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77724 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7 -L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin -L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_77724] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+          arg [-L/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+          arg [CMakeFiles/cmTC_77724.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/../tbb/lib/intel64_lin/gcc4.4] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin]
+        collapse library dir [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64] ==> [/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64_lin/gcc4.4;/opt/intel/compilers_and_libraries_2018.2.199/linux/daal/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/tbb/lib/intel64/gcc4.7;/opt/intel/compilers_and_libraries_2018.2.199/linux/mkl/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/compiler/lib/intel64_lin;/opt/intel/compilers_and_libraries_2018.2.199/linux/ipp/lib/intel64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_50137/fast && /bin/gmake  -f CMakeFiles/cmTC_50137.dir/build.make CMakeFiles/cmTC_50137.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp'
+        Building C object CMakeFiles/cmTC_50137.dir/OpenMPCheckVersion.c.o
+        /bin/cc   -fopenmp -o CMakeFiles/cmTC_50137.dir/OpenMPCheckVersion.c.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp/OpenMPCheckVersion.c
+        Linking C executable cmTC_50137
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50137.dir/link.txt --verbose=1
+        /bin/cc  -fopenmp CMakeFiles/cmTC_50137.dir/OpenMPCheckVersion.c.o -o cmTC_50137 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-uizyYp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:27 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_97058/fast && /bin/gmake  -f CMakeFiles/cmTC_97058.dir/build.make CMakeFiles/cmTC_97058.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe'
+        Building CXX object CMakeFiles/cmTC_97058.dir/OpenMPCheckVersion.cpp.o
+        /bin/c++   -Wall -pedantic -lm -fopenmp -std=gnu++1y -o CMakeFiles/cmTC_97058.dir/OpenMPCheckVersion.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_97058
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97058.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm -fopenmp CMakeFiles/cmTC_97058.dir/OpenMPCheckVersion.cpp.o -o cmTC_97058 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lEJYRe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_00496/fast && /bin/gmake  -f CMakeFiles/cmTC_00496.dir/build.make CMakeFiles/cmTC_00496.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1'
+        Building C object CMakeFiles/cmTC_00496.dir/test_mpi.c.o
+        /bin/cc  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include  -o CMakeFiles/cmTC_00496.dir/test_mpi.c.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1/test_mpi.c
+        Linking C executable cmTC_00496
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00496.dir/link.txt --verbose=1
+        /bin/cc -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2107.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_00496.dir/test_mpi.c.o -o cmTC_00496  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PoMYi1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_18309/fast && /bin/gmake  -f CMakeFiles/cmTC_18309.dir/build.make CMakeFiles/cmTC_18309.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX'
+        Building CXX object CMakeFiles/cmTC_18309.dir/test_mpi.cpp.o
+        /bin/c++  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include -Wall -pedantic -lm  -std=gnu++1y -o CMakeFiles/cmTC_18309.dir/test_mpi.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX/test_mpi.cpp
+        Linking CXX executable cmTC_18309
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18309.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm  -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_18309.dir/test_mpi.cpp.o -o cmTC_18309  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpicxx.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zGAAMX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_595b2/fast && /bin/gmake  -f CMakeFiles/cmTC_595b2.dir/build.make CMakeFiles/cmTC_595b2.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ'
+        Building CXX object CMakeFiles/cmTC_595b2.dir/test_mpi.cpp.o
+        /bin/c++  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include -Wall -pedantic -lm  -std=gnu++1y -o CMakeFiles/cmTC_595b2.dir/test_mpi.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ/test_mpi.cpp
+        Linking CXX executable cmTC_595b2
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_595b2.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm  -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_595b2.dir/test_mpi.cpp.o -o cmTC_595b2  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpicxx.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-6HGOQZ'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_390e7/fast && /bin/gmake  -f CMakeFiles/cmTC_390e7.dir/build.make CMakeFiles/cmTC_390e7.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs'
+        Building C object CMakeFiles/cmTC_390e7.dir/test_mpi.c.o
+        /bin/cc  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include  -o CMakeFiles/cmTC_390e7.dir/test_mpi.c.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs/test_mpi.c
+        Linking C executable cmTC_390e7
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_390e7.dir/link.txt --verbose=1
+        /bin/cc -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2107.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_390e7.dir/test_mpi.c.o -o cmTC_390e7  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-PHclRs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_ce4e1/fast && /bin/gmake  -f CMakeFiles/cmTC_ce4e1.dir/build.make CMakeFiles/cmTC_ce4e1.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi'
+        Building CXX object CMakeFiles/cmTC_ce4e1.dir/test_mpi.cpp.o
+        /bin/c++  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include -Wall -pedantic -lm  -std=gnu++1y -o CMakeFiles/cmTC_ce4e1.dir/test_mpi.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi/test_mpi.cpp
+        Linking CXX executable cmTC_ce4e1
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce4e1.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm  -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_ce4e1.dir/test_mpi.cpp.o -o cmTC_ce4e1  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpicxx.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-zjrvOi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/opt/apps/cmake/3.26.3/share/cmake-3.26/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:35 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a"
+      binary: "/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -pedantic -lm"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a
+        
+        Run Build Command(s):/opt/apps/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_b23e5/fast && /bin/gmake  -f CMakeFiles/cmTC_b23e5.dir/build.make CMakeFiles/cmTC_b23e5.dir/build
+        gmake[1]: Entering directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a'
+        Building CXX object CMakeFiles/cmTC_b23e5.dir/test_mpi.cpp.o
+        /bin/c++  -isystem /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/include -Wall -pedantic -lm  -std=gnu++1y -o CMakeFiles/cmTC_b23e5.dir/test_mpi.cpp.o -c /work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a/test_mpi.cpp
+        Linking CXX executable cmTC_b23e5
+        /opt/apps/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b23e5.dir/link.txt --verbose=1
+        /bin/c++  -Wall -pedantic -lm  -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib/release_mt -Xlinker -rpath -Xlinker /opt/intel/mpi-rt/2017.0.0/intel64/lib CMakeFiles/cmTC_b23e5.dir/test_mpi.cpp.o -o cmTC_b23e5  -Wl,-rpath,/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpicxx.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/release_mt/libmpi.so /opt/intel/compilers_and_libraries_2018.2.199/linux/mpi/intel64/lib/libmpigi.a /usr/lib64/libdl.so /usr/lib64/librt.so -lpthread 
+        gmake[1]: Leaving directory `/work2/07431/tg867305/stampede2/HPEC2023/hpec2023/build/CMakeFiles/CMakeScratch/TryCompile-lCba0a'
+        
+      exitCode: 0
+...

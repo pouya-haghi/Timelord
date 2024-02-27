@@ -1,0 +1,7 @@
+TACC:  Starting up job 11552044 
+TACC:  Starting parallel tasks... 
+Total Iterations: 126578063868073
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c476-071.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion

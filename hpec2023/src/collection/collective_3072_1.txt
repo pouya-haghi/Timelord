@@ -1,0 +1,37 @@
+TACC:  Starting up job 11539980 
+TACC:  Starting parallel tasks... 
+original allreduce: Time elapsed: 2.504645 seconds
+new allreduce: Time elapsed: 3.470366 seconds
+original alltoall: Time elapsed: 72.463357 seconds
+new alltoall: Time elapsed: 119.719094 seconds
+original gather: Time elapsed: 1.921224 seconds
+new gather: Time elapsed: 1.456764 seconds
+original allgather: Time elapsed: 16.542808 seconds
+new allgather: Time elapsed: 16.248517 seconds
+original scatter: Time elapsed: 2.439319 seconds
+new scatter: Time elapsed: 2.631108 seconds
+original reduce: Time elapsed: 4.942178 seconds
+new reduce: Time elapsed: 0.960517 seconds
+original bcast: Time elapsed: 0.279868 seconds
+new bcast: Time elapsed: 0.362614 seconds
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 308477 RUNNING AT c485-092
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 308524 RUNNING AT c485-092
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+TACC:  MPI job exited with code: 11 
+TACC:  Shutdown complete. Exiting. 

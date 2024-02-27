@@ -1,0 +1,70 @@
+TACC:  Starting up job 11541696 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Start: 1689548724465316096
+LAMMPS (15 Jun 2023 - Development - patch_15Jun2023-30-gc5d9f901d9)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  12 by 16 by 16 MPI processor grid
+Created 32000000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  create_atoms CPU = 0.025 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 20 steps, delay = 0 steps, check = no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 2.8
+  ghost atom cutoff = 2.8
+  binsize = 1.4, bins = 240 240 240
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 6.326 | 6.336 | 6.344 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1.44          -6.7733681      0             -4.6133681     -5.0196693    
+       100   0.75941602    -5.7614399      0             -4.6223159      0.19027589   
+Loop time of 16.4328 on 3072 procs for 100 steps with 32000000 atoms
+
+Performance: 2628.890 tau/day, 6.085 timesteps/s, 194.733 Matom-step/s
+42.2% CPU use with 3072 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 1.1671     | 1.2262     | 1.3254     |   2.8 |  7.46
+Neigh   | 0.13306    | 0.1402     | 0.15091    |   0.9 |  0.85
+Comm    | 14.514     | 14.777     | 15.07      |   2.3 | 89.92
+Output  | 0.014627   | 0.2589     | 0.44778    |  17.1 |  1.58
+Modify  | 0.022661   | 0.023749   | 0.026148   |   0.4 |  0.14
+Other   |            | 0.006562   |            |       |  0.04
+
+Nlocal:        10416.7 ave       10596 max       10253 min
+Histogram: 39 239 444 312 301 788 744 188 16 1
+Nghost:        9957.57 ave       10205 max        9796 min
+Histogram: 8 185 851 828 335 418 331 108 7 1
+Neighs:         391191 ave      399193 max      383721 min
+Histogram: 23 157 368 428 474 769 613 220 19 1
+
+Total # of neighbors = 1.2017386e+09
+Ave neighs/atom = 37.55433
+Neighbor list builds = 5
+Dangerous builds not checked
+Total wall time: 0:00:17
+[mpiexec@c481-011.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c481-011.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c481-011.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c481-011.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m29.026s
+user	0m1.097s
+sys	0m0.974s

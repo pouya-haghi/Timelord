@@ -1,0 +1,32 @@
+TACC:  Starting up job 11539066 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+      creating/filling mesh...0.237255s, total time: 0.237255
+generating matrix structure...0.30645s, total time: 0.543705
+         assembling FE data...0.221016s, total time: 0.764721
+      imposing Dirichlet BC...0.0336652s, total time: 0.798386
+      imposing Dirichlet BC...0.00346494s, total time: 0.801851
+making matrix indices local...0.521676s, total time: 1.32353
+Starting CG solver ... 
+Initial Residual = 314.674
+Iteration = 20   Residual = 0.187229
+Iteration = 40   Residual = 0.0890402
+Iteration = 60   Residual = 0.0586487
+Iteration = 80   Residual = 0.0426107
+Iteration = 100   Residual = 0.0406857
+Iteration = 120   Residual = 0.0271859
+Iteration = 140   Residual = 0.0230641
+Iteration = 160   Residual = 0.0195033
+Iteration = 180   Residual = 0.0168882
+Iteration = 200   Residual = 0.0150192
+Final Resid Norm: 0.0150192
+[mpiexec@c478-001.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c478-001.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c478-001.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c478-001.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m27.234s
+user	0m1.068s
+sys	0m0.906s

@@ -1,0 +1,103 @@
+TACC:  Starting up job 11532067 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+9.437189102 seconds
+
+My Iterations: 4934527713
+
+My Iterations: 4935852733
+
+My Iterations: 4937829416
+My Iterations: 4935419707
+
+My Iterations: 4933966481
+
+My Iterations: 4935475132
+
+My Iterations: 4935417838
+
+My Iterations: 4937949816
+
+My Iterations: 4969068182
+
+My Iterations: 4937148212
+
+My Iterations: 4936757378
+
+My Iterations: 4932467462
+
+My Iterations: 4937335645
+
+My Iterations: 4937864343
+
+My Iterations: 4928758171
+
+My Iterations: 4938885377
+
+My Iterations: 4905927627
+
+My Iterations: 4959170917
+
+My Iterations: 4939581866
+
+My Iterations: 4936989421
+
+My Iterations: 4937919848
+
+My Iterations: 4921139239
+
+My Iterations: 4936347441
+
+My Iterations: 4946136239
+
+My Iterations: 4941283075
+
+My Iterations: 4985162839
+
+My Iterations: 4940619015
+
+My Iterations: 4972508220
+
+My Iterations: 4967967653
+
+My Iterations: 4993651075
+
+My Iterations: 4973767758
+
+My Iterations: 4988363047
+
+My Iterations: 4967180230
+
+My Iterations: 4958238025
+
+My Iterations: 4987625928
+
+My Iterations: 4888979760
+
+My Iterations: 4935587134
+
+My Iterations: 4968881793
+
+
+My Iterations: 4968462135
+
+My Iterations: 4974324407
+
+My Iterations: 4997211501
+
+My Iterations: 4966715217
+
+My Iterations: 4996648134
+
+My Iterations: 4999794755
+
+My Iterations: 5000882208
+
+My Iterations: 4935903183
+
+My Iterations: 4966007165
+
+My Iterations: 5000254192
+Total extrawork done: 237763954653
+TACC:  MPI job exited with code: 15 
+TACC:  Shutdown complete. Exiting. 

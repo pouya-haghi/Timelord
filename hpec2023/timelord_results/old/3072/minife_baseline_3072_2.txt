@@ -1,0 +1,26 @@
+TACC:  Starting up job 11528714 
+TACC:  Starting parallel tasks... 
+      creating/filling mesh...0.00427508s, total time: 0.00427508
+generating matrix structure...0.049443s, total time: 0.0537181
+         assembling FE data...0.11087s, total time: 0.164588
+      imposing Dirichlet BC...0.0159309s, total time: 0.180519
+      imposing Dirichlet BC...0.00207806s, total time: 0.182597
+making matrix indices local...0.080348s, total time: 0.262945
+Starting CG solver ... 
+Initial Residual = 314.674
+Iteration = 20   Residual = 0.187229
+Iteration = 40   Residual = 0.0891559
+Iteration = 60   Residual = 0.0586487
+Iteration = 80   Residual = 0.0426108
+Iteration = 100   Residual = 0.0335571
+Iteration = 120   Residual = 0.0271859
+Iteration = 140   Residual = 0.0228973
+Iteration = 160   Residual = 0.0195033
+Iteration = 180   Residual = 0.0170149
+Iteration = 200   Residual = 0.0149139
+Final Resid Norm: 0.0149139
+TACC:  Shutdown complete. Exiting. 
+
+real	0m3.394s
+user	0m54.935s
+sys	0m8.697s

@@ -1,0 +1,63 @@
+TACC:  Starting up job 11539077 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Initial Residual = 70002.3
+Iteration = 15   Residual = 953.374
+Iteration = 30   Residual = 6.23047
+Iteration = 45   Residual = 0.0376284
+Iteration = 60   Residual = 9.722e-05
+Iteration = 75   Residual = 5.19802e-07
+Iteration = 90   Residual = 3.99165e-09
+Iteration = 105   Residual = 1.52376e-11
+Iteration = 120   Residual = 8.84608e-14
+Iteration = 135   Residual = 5.70016e-16
+Iteration = 149   Residual = 4.6141e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  Number of MPI ranks: 1536
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 100
+  ny: 100
+  nz: 64
+Number of iterations: 149
+Final residual: 4.6141e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 12.9164
+  DDOT    : 3.02695
+  WAXPBY  : 1.52534
+  SPARSEMV: 8.3109
+FLOPS Summary: 
+  Total   : 9.37427e+12
+  DDOT    : 5.85892e+11
+  WAXPBY  : 8.78838e+11
+  SPARSEMV: 7.90954e+12
+MFLOPS Summary: 
+  Total   : 725767
+  DDOT    : 193558
+  WAXPBY  : 576160
+  SPARSEMV: 951707
+DDOT Timing Variations: 
+  Min DDOT MPI_Allreduce time: 1.76899
+  Max DDOT MPI_Allreduce time: 2.59221
+  Avg DDOT MPI_Allreduce time: 2.38867
+SPARSEMV OVERHEADS: 
+  SPARSEMV MFLOPS W OVERHEAD: 930318
+  SPARSEMV PARALLEL OVERHEAD Time: 0.191078
+  SPARSEMV PARALLEL OVERHEAD Pct: 2.24745
+  SPARSEMV PARALLEL OVERHEAD Setup Time: 0.152623
+  SPARSEMV PARALLEL OVERHEAD Setup Pct: 1.79515
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Time: 0.038455
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Pct: 0.452307
+[mpiexec@c485-101.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c485-101.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c485-101.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c485-101.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m20.775s
+user	0m0.570s
+sys	0m0.575s

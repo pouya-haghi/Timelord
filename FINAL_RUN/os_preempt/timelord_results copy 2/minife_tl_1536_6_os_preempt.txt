@@ -1,0 +1,34 @@
+TACC:  Starting up job 11541632 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Start: 1689545857260360448
+      creating/filling mesh...0.02672100067138671875s, total time: 0.02672100067138671875
+generating matrix structure...0.1710259914398193359375s, total time: 0.1977469921112060546875
+         assembling FE data...0.417624950408935546875s, total time: 0.6153719425201416015625
+      imposing Dirichlet BC...0.0793921947479248046875s, total time: 0.69476413726806640625
+      imposing Dirichlet BC...0.005935192108154296875s, total time: 0.700699329376220703125
+making matrix indices local...0.2311818599700927734375s, total time: 0.9318811893463134765625
+Starting CG solver ... 
+Initial Residual = 314.67370405273908318122266791760921478271484375
+Iteration = 20   Residual = 0.187228910274025606153003309373161755502223968505859375
+Iteration = 40   Residual = 0.4414199092607316021741326039773412048816680908203125
+Iteration = 60   Residual = 0.05864871076887989698178671460482291877269744873046875
+Iteration = 80   Residual = 0.044363943089967328159417547794873826205730438232421875
+Iteration = 100   Residual = 0.0335570467865384802763628613320179283618927001953125
+Iteration = 120   Residual = 0.02748829570433820868036178808324621059000492095947265625
+Iteration = 140   Residual = 0.0228972415955162010570145270094144507311284542083740234375
+Iteration = 160   Residual = 0.019664812864195392594357514326475211419165134429931640625
+Iteration = 180   Residual = 0.0170146437956961438242586837077396921813488006591796875
+Iteration = 200   Residual = 0.0150166596172250262075653637339200940914452075958251953125
+Final Resid Norm: 0.0150166596172250262075653637339200940914452075958251953125
+Total Iterations: 32584150879311
+[mpiexec@c497-001.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c497-001.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c497-001.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c497-001.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+
+real	1m1.229s
+user	0m0.598s
+sys	0m0.556s

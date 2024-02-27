@@ -1,0 +1,64 @@
+TACC:  Starting up job 11541623 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Start: 1689545336297406464
+Initial Residual = 70002.262534863824839703738689422607421875
+Iteration = 15   Residual = 953.3740068408077377171139232814311981201171875
+Iteration = 30   Residual = 6.23047234063098098744148956029675900936126708984375
+Iteration = 45   Residual = 0.037628383098565032494065007995232008397579193115234375
+Iteration = 60   Residual = 9.721996509010524920198215159672372465138323605060577392578125e-05
+Iteration = 75   Residual = 5.1980235473761571775752794721814353806621511466801166534423828125e-07
+Iteration = 90   Residual = 3.99164835265362751532998233125297538048670276111806742846965789794921875e-09
+Iteration = 105   Residual = 1.5237605263369360994660670788832554194136559289063370670191943645477294921875e-11
+Iteration = 120   Residual = 8.84608105845170034585101417211181994691183982926219186992966569960117340087890625e-14
+Iteration = 135   Residual = 5.700157261942070448804958386495090315007044771446198527797832866781391203403472900390625e-16
+Iteration = 149   Residual = 4.61409671498386458321309376042641681319692937004116849164514491121735773049294948577880859375e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  Number of MPI ranks: 1536
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 100
+  ny: 100
+  nz: 64
+Number of iterations: 149
+Final residual: 4.6141e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 11.3073
+  DDOT    : 1.29402
+  WAXPBY  : 1.56645
+  SPARSEMV: 8.40105
+FLOPS Summary: 
+  Total   : 9.37427e+12
+  DDOT    : 5.85892e+11
+  WAXPBY  : 8.78838e+11
+  SPARSEMV: 7.90954e+12
+MFLOPS Summary: 
+  Total   : 829048
+  DDOT    : 452770
+  WAXPBY  : 561038
+  SPARSEMV: 941494
+DDOT Timing Variations: 
+  Min DDOT MPI_Allreduce time: 0.338503
+  Max DDOT MPI_Allreduce time: 1.06685
+  Avg DDOT MPI_Allreduce time: 0.778948
+SPARSEMV OVERHEADS: 
+  SPARSEMV MFLOPS W OVERHEAD: 923900
+  SPARSEMV PARALLEL OVERHEAD Time: 0.15998
+  SPARSEMV PARALLEL OVERHEAD Pct: 1.86869
+  SPARSEMV PARALLEL OVERHEAD Setup Time: 0.130137
+  SPARSEMV PARALLEL OVERHEAD Setup Pct: 1.52011
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Time: 0.0298426
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Pct: 0.348587
+[mpiexec@c488-001.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c488-001.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c488-001.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c488-001.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m18.967s
+user	0m0.535s
+sys	0m0.609s

@@ -1,0 +1,63 @@
+TACC:  Starting up job 11541696 
+TACC:  Starting parallel tasks... 
+LAMMPS (15 Jun 2023 - Development - patch_15Jun2023-30-gc5d9f901d9)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  12 by 16 by 16 MPI processor grid
+Created 32000000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (335.91924 335.91924 335.91924)
+  create_atoms CPU = 0.020 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 20 steps, delay = 0 steps, check = no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 2.8
+  ghost atom cutoff = 2.8
+  binsize = 1.4, bins = 240 240 240
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 6.326 | 6.336 | 6.344 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1.44          -6.7733681      0             -4.6133681     -5.0196693    
+       100   0.75941602    -5.7614399      0             -4.6223159      0.19027589   
+Loop time of 15.8752 on 3072 procs for 100 steps with 32000000 atoms
+
+Performance: 2721.232 tau/day, 6.299 timesteps/s, 201.573 Matom-step/s
+43.7% CPU use with 3072 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0.58518    | 0.61094    | 0.72401    |   1.4 |  3.85
+Neigh   | 0.084552   | 0.087098   | 0.10774    |   0.5 |  0.55
+Comm    | 14.813     | 15.035     | 15.171     |   2.2 | 94.71
+Output  | 0.0085071  | 0.12546    | 0.2562     |  23.6 |  0.79
+Modify  | 0.01114    | 0.011903   | 0.013629   |   0.3 |  0.07
+Other   |            | 0.005121   |            |       |  0.03
+
+Nlocal:        10416.7 ave       10596 max       10253 min
+Histogram: 39 239 444 312 301 788 744 188 16 1
+Nghost:        9957.57 ave       10205 max        9796 min
+Histogram: 8 185 851 828 335 418 331 108 7 1
+Neighs:         391191 ave      399193 max      383721 min
+Histogram: 23 157 368 428 474 769 613 220 19 1
+
+Total # of neighbors = 1.2017386e+09
+Ave neighs/atom = 37.55433
+Neighbor list builds = 5
+Dangerous builds not checked
+Total wall time: 0:00:16
+TACC:  Shutdown complete. Exiting. 
+
+real	0m18.858s
+user	5m49.977s
+sys	7m33.696s

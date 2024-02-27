@@ -1,0 +1,59 @@
+TACC:  Starting up job 11539044 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Initial Residual = 49509.3
+Iteration = 15   Residual = 674.273
+Iteration = 30   Residual = 4.40656
+Iteration = 45   Residual = 0.0266155
+Iteration = 60   Residual = 6.93095e-05
+Iteration = 75   Residual = 3.93911e-07
+Iteration = 90   Residual = 2.97537e-09
+Iteration = 105   Residual = 1.2527e-11
+Iteration = 120   Residual = 6.62004e-14
+Iteration = 135   Residual = 4.31086e-16
+Iteration = 149   Residual = 3.66116e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  Number of MPI ranks: 768
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 100
+  ny: 100
+  nz: 64
+Number of iterations: 149
+Final residual: 3.66116e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 12.7055
+  DDOT    : 2.66099
+  WAXPBY  : 1.53673
+  SPARSEMV: 8.44827
+FLOPS Summary: 
+  Total   : 4.68713e+12
+  DDOT    : 2.92946e+11
+  WAXPBY  : 4.39419e+11
+  SPARSEMV: 3.95477e+12
+MFLOPS Summary: 
+  Total   : 368906
+  DDOT    : 110089
+  WAXPBY  : 285944
+  SPARSEMV: 468116
+DDOT Timing Variations: 
+  Min DDOT MPI_Allreduce time: 1.44833
+  Max DDOT MPI_Allreduce time: 2.40372
+  Avg DDOT MPI_Allreduce time: 2.15516
+SPARSEMV OVERHEADS: 
+  SPARSEMV MFLOPS W OVERHEAD: 458735
+  SPARSEMV PARALLEL OVERHEAD Time: 0.172766
+  SPARSEMV PARALLEL OVERHEAD Pct: 2.004
+  SPARSEMV PARALLEL OVERHEAD Setup Time: 0.128833
+  SPARSEMV PARALLEL OVERHEAD Setup Pct: 1.4944
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Time: 0.0439327
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Pct: 0.509599
+Total Iterations: 5706777737604
+TACC:  Shutdown complete. Exiting. 
+
+real	0m25.176s
+user	22m22.168s
+sys	2m16.974s

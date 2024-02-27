@@ -1,0 +1,43 @@
+TACC:  Starting up job 11528715 
+TACC:  Starting parallel tasks... 
+Initial Residual = 1.55192e+06
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  Number of MPI ranks: 3072
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 100
+  ny: 100
+  nz: 100
+Number of iterations: 2
+Final residual: -nan
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 0.093164
+  DDOT    : 0.0124416
+  WAXPBY  : 0.0490875
+  SPARSEMV: 0.0269957
+FLOPS Summary: 
+  Total   : -1.5654e+11
+  DDOT    : -9.78374e+09
+  WAXPBY  : -1.46756e+10
+  SPARSEMV: -1.3208e+11
+MFLOPS Summary: 
+  Total   : -1.68026e+06
+  DDOT    : -786371
+  WAXPBY  : -298968
+  SPARSEMV: -4.89266e+06
+DDOT Timing Variations: 
+  Min DDOT MPI_Allreduce time: 0.000739336
+  Max DDOT MPI_Allreduce time: 0.00353312
+  Avg DDOT MPI_Allreduce time: 0.00205082
+SPARSEMV OVERHEADS: 
+  SPARSEMV MFLOPS W OVERHEAD: -4.3498e+06
+  SPARSEMV PARALLEL OVERHEAD Time: 0.00336909
+  SPARSEMV PARALLEL OVERHEAD Pct: 11.0954
+  SPARSEMV PARALLEL OVERHEAD Setup Time: 0.00334096
+  SPARSEMV PARALLEL OVERHEAD Setup Pct: 11.0028
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Time: 2.81334e-05
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Pct: 0.0926515
+TACC:  Shutdown complete. Exiting. 

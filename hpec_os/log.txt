@@ -1,0 +1,7 @@
+TACC:  Starting up job 11538054 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+9.444951057 seconds
+Total extrawork done: 4835362967317
+TACC:  MPI job exited with code: 2 
+TACC:  Shutdown complete. Exiting. 

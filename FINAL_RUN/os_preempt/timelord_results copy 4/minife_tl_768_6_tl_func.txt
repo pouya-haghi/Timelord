@@ -1,0 +1,28 @@
+TACC:  Starting up job 11549150 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+      creating/filling mesh...0.0174201s, total time: 0.0174201
+generating matrix structure...0.213673s, total time: 0.231093
+         assembling FE data...0.395588s, total time: 0.626681
+      imposing Dirichlet BC...0.0795629s, total time: 0.706244
+      imposing Dirichlet BC...0.00795197s, total time: 0.714196
+making matrix indices local...0.154848s, total time: 0.869044
+Starting CG solver ... 
+Initial Residual = 314.674
+Iteration = 20   Residual = 0.187229
+Iteration = 40   Residual = 0.117236
+Iteration = 60   Residual = 0.0586487
+Iteration = 80   Residual = 0.195138
+Iteration = 100   Residual = 0.033557
+Iteration = 120   Residual = 0.0326689
+Iteration = 140   Residual = 0.0228972
+Iteration = 160   Residual = 0.024806
+Iteration = 180   Residual = 0.0170145
+Iteration = 200   Residual = 0.0634213
+Final Resid Norm: 0.0634213
+Total extrawork done: 1387075449
+TACC:  Shutdown complete. Exiting. 
+
+real	0m8.617s
+user	3m15.023s
+sys	2m40.543s

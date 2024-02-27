@@ -1,0 +1,31 @@
+TACC:  Starting up job 11539044 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+      creating/filling mesh...0.0259931s, total time: 0.0259931
+generating matrix structure...0.346561s, total time: 0.372554
+         assembling FE data...0.829623s, total time: 1.20218
+      imposing Dirichlet BC...0.16743s, total time: 1.36961
+      imposing Dirichlet BC...0.013845s, total time: 1.38345
+making matrix indices local...0.263325s, total time: 1.64678
+Starting CG solver ... 
+Initial Residual = 314.674
+Iteration = 20   Residual = 0.187229
+Iteration = 40   Residual = 0.117236
+Iteration = 60   Residual = 0.0586487
+Iteration = 80   Residual = 0.195138
+Iteration = 100   Residual = 0.033557
+Iteration = 120   Residual = 0.0326689
+Iteration = 140   Residual = 0.0228972
+Iteration = 160   Residual = 0.024806
+Iteration = 180   Residual = 0.0170145
+Iteration = 200   Residual = 0.0634213
+Final Resid Norm: 0.0634213
+rank = 0, revents = 25, state = 8
+Assertion failed in file ../../src/mpid/ch3/channels/nemesis/netmod/tcp/socksm.c at line 2988: (it_plfd->revents & POLLERR) == 0
+internal ABORT - process 0
+TACC:  MPI job exited with code: 1 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m21.095s
+user	0m0.366s
+sys	0m0.386s

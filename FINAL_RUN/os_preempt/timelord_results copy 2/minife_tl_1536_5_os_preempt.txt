@@ -1,0 +1,49 @@
+TACC:  Starting up job 11541632 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Start: 1689545817051751168
+      creating/filling mesh...0.0271699428558349609375s, total time: 0.0271699428558349609375
+generating matrix structure...1.15466594696044921875s, total time: 1.1818358898162841796875
+         assembling FE data...0.4280850887298583984375s, total time: 1.609920978546142578125
+      imposing Dirichlet BC...0.0797660350799560546875s, total time: 1.6896870136260986328125
+      imposing Dirichlet BC...0.00594997406005859375s, total time: 1.6956369876861572265625
+making matrix indices local...0.2192599773406982421875s, total time: 1.91489696502685546875
+Starting CG solver ... 
+Initial Residual = 314.67370405273908318122266791760921478271484375
+Iteration = 20   Residual = 0.187228910274025606153003309373161755502223968505859375
+Iteration = 40   Residual = 0.4414199092607316021741326039773412048816680908203125
+Iteration = 60   Residual = 0.05864871076887989698178671460482291877269744873046875
+Iteration = 80   Residual = 0.044363943089967328159417547794873826205730438232421875
+Iteration = 100   Residual = 0.0335570467865384802763628613320179283618927001953125
+Iteration = 120   Residual = 0.02748829570433820868036178808324621059000492095947265625
+Iteration = 140   Residual = 0.0228972415955162010570145270094144507311284542083740234375
+Iteration = 160   Residual = 0.019664812864195392594357514326475211419165134429931640625
+Iteration = 180   Residual = 0.0170146437956961438242586837077396921813488006591796875
+Iteration = 200   Residual = 0.0150166596172250262075653637339200940914452075958251953125
+Final Resid Norm: 0.0150166596172250262075653637339200940914452075958251953125
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 45277 RUNNING AT c497-033
+=   EXIT CODE: 15
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+Total Iterations: 20985023076217
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 45324 RUNNING AT c497-033
+=   EXIT CODE: 15
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+TACC:  MPI job exited with code: 15 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m40.194s
+user	40m8.222s
+sys	17m53.202s

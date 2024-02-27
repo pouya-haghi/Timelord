@@ -1,0 +1,71 @@
+TACC:  Starting up job 11539066 
+TACC:  Starting parallel tasks... 
+Timelord MPI is enabled
+Initial Residual = 98987.9
+Iteration = 15   Residual = 1348.14
+Iteration = 30   Residual = 8.81027
+Iteration = 45   Residual = 0.0532063
+Iteration = 60   Residual = 0.000136918
+Iteration = 75   Residual = 7.03536e-07
+Iteration = 90   Residual = 5.19246e-09
+Iteration = 105   Residual = 1.94051e-11
+Iteration = 120   Residual = 1.2076e-13
+Iteration = 135   Residual = 7.62397e-16
+Iteration = 149   Residual = 5.97935e-18
+Mini-Application Name: hpccg
+Mini-Application Version: 1.0
+Parallelism: 
+  Number of MPI ranks: 3072
+  OpenMP not enabled: 
+Dimensions: 
+  nx: 100
+  ny: 100
+  nz: 64
+Number of iterations: 149
+Final residual: 5.97935e-18
+#********** Performance Summary (times in sec) ***********: 
+Time Summary: 
+  Total   : 11.3922
+  DDOT    : 1.43328
+  WAXPBY  : 1.55644
+  SPARSEMV: 8.33581
+FLOPS Summary: 
+  Total   : 1.87485e+13
+  DDOT    : 1.17178e+12
+  WAXPBY  : 1.75768e+12
+  SPARSEMV: 1.58191e+13
+MFLOPS Summary: 
+  Total   : 1.64574e+06
+  DDOT    : 817552
+  WAXPBY  : 1.12929e+06
+  SPARSEMV: 1.89773e+06
+DDOT Timing Variations: 
+  Min DDOT MPI_Allreduce time: 0.361535
+  Max DDOT MPI_Allreduce time: 1.11711
+  Avg DDOT MPI_Allreduce time: 0.854617
+SPARSEMV OVERHEADS: 
+  SPARSEMV MFLOPS W OVERHEAD: 1.80681e+06
+  SPARSEMV PARALLEL OVERHEAD Time: 0.419466
+  SPARSEMV PARALLEL OVERHEAD Pct: 4.79101
+  SPARSEMV PARALLEL OVERHEAD Setup Time: 0.367785
+  SPARSEMV PARALLEL OVERHEAD Setup Pct: 4.20073
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Time: 0.0516806
+  SPARSEMV PARALLEL OVERHEAD Bdry Exch Pct: 0.590279
+Total Iterations: 21582584925619
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 70459 RUNNING AT c478-081
+=   EXIT CODE: 15
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+   Intel(R) MPI Library troubleshooting guide:
+      https://software.intel.com/node/561764
+===================================================================================
+TACC:  MPI job exited with code: 15 
+TACC:  Shutdown complete. Exiting. 
+
+real	0m29.507s
+user	23m38.367s
+sys	5m49.253s

@@ -1,0 +1,30 @@
+TACC:  Starting up job 11540015 
+TACC:  Starting parallel tasks... 
+original allreduce: Time elapsed: 1.343883 seconds
+new allreduce: Time elapsed: 2.010144 seconds
+original alltoall: Time elapsed: 28.482812 seconds
+new alltoall: Time elapsed: 41.475984 seconds
+original gather: Time elapsed: 1.545462 seconds
+new gather: Time elapsed: 1.260264 seconds
+original allgather: Time elapsed: 5.819975 seconds
+new allgather: Time elapsed: 5.851884 seconds
+original scatter: Time elapsed: 2.269451 seconds
+new scatter: Time elapsed: 2.427243 seconds
+original reduce: Time elapsed: 0.872743 seconds
+new reduce: Time elapsed: 0.893380 seconds
+original bcast: Time elapsed: 0.247350 seconds
+new bcast: Time elapsed: 0.334601 seconds
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 157250 RUNNING AT c486-113
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+[mpiexec@c478-033.stampede2.tacc.utexas.edu] control_cb (../../pm/pmiserv/pmiserv_cb.c:923): assert (!closed) failed
+[mpiexec@c478-033.stampede2.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@c478-033.stampede2.tacc.utexas.edu] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:520): error waiting for event
+[mpiexec@c478-033.stampede2.tacc.utexas.edu] main (../../ui/mpich/mpiexec.c:1149): process manager error waiting for completion
+TACC:  MPI job exited with code: 255 
+TACC:  Shutdown complete. Exiting. 
